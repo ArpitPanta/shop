@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Customer Center - Fresh Flower Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="topbar">
+      <span>Fresh Flower Mala Specialist <strong>(Viber/Whatsapp - 9851015344)</strong></span>
+    </div>
+
+    <header class="site-header container">
+      <a href="index.html" style="text-decoration: none; display: flex; align-items: center; gap: 16px;">
+        <div class="logo-mark" aria-label="Fresh Flower Shop logo">
+          <div class="logo-circle"></div>
+          <div class="smile"></div>
+          <div class="leaf leaf-one"></div>
+          <div class="leaf leaf-two"></div>
+        </div>
+        <div class="brand-text">
+          <h1>The Fresh Flower Mala Shop</h1>
+          <p>Bringing Happiness</p>
+        </div>
+      </a>
+    </header>
+
+    <main class="container">
+      <div class="page-content">
+        <h1>Customer Support Center</h1>
+        
+        <section class="support-section">
+          <h2>Get in Touch</h2>
+          <div class="contact-info">
+            <div class="contact-card">
+              <h3>📞 Phone</h3>
+              <p>+977 9851015344</p>
+              <p class="muted">Available 9 AM - 9 PM daily</p>
+            </div>
+            <div class="contact-card">
+              <h3>📧 Email</h3>
+              <p>info@freshflowershop.com</p>
+              <p class="muted">We respond within 2 hours</p>
+            </div>
+            <div class="contact-card">
+              <h3>💬 Viber/WhatsApp</h3>
+              <p>+977 9851015344</p>
+              <p class="muted">Instant messaging support</p>
+            </div>
+            <div class="contact-card">
+              <h3>📍 Visit Us</h3>
+              <p>Kathmandu, Nepal</p>
+              <p class="muted">By appointment</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="support-section">
+          <h2>Frequently Asked Questions</h2>
+          <div class="faq-list">
+            <div class="faq-item">
+              <h4>How fast can you deliver?</h4>
+              <p>We offer same-day delivery in Kathmandu for orders placed before 2 PM. Standard delivery takes 24 hours for other areas.</p>
+            </div>
+            <div class="faq-item">
+              <h4>Can I customize my bouquet?</h4>
+              <p>Absolutely! We can customize any arrangement to your preferences. Contact us directly with your requirements.</p>
+            </div>
+            <div class="faq-item">
+              <h4>What is your refund policy?</h4>
+              <p>We offer 100% refund if you're not satisfied with the quality. Just let us know within 24 hours of delivery.</p>
+            </div>
+            <div class="faq-item">
+              <h4>Do you offer corporate orders?</h4>
+              <p>Yes! We handle bulk orders for offices, events, and special occasions with competitive pricing.</p>
+            </div>
+            <div class="faq-item">
+              <h4>How long do the flowers last?</h4>
+              <p>Our fresh flowers typically last 7-10 days with proper care. We include care instructions with every delivery.</p>
+            </div>
+            <div class="faq-item">
+              <h4>Can I send flowers internationally?</h4>
+              <p>Currently we deliver within Nepal. For international orders, please contact us for special arrangements.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="support-section">
+          <h2>Send us a Message</h2>
+          <form class="contact-form">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <input type="text" placeholder="Subject" required />
+            <textarea placeholder="Your Message" rows="6" required></textarea>
+            <button type="submit" class="submit-btn">Send Message</button>
+          </form>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-content container">
+        <div class="footer-section">
+          <h3>About Us</h3>
+          <p>The Fresh Flower Shop brings happiness through beautiful, fresh flower arrangements crafted with love and care.</p>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="customer-center.html">Customer Support</a></li>
+            <li><a href="cart.html">My Cart</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Contact Info</h3>
+          <p>📞 +977 9851015344</p>
+          <p>📧 info@freshflowershop.com</p>
+          <p>📍 Kathmandu, Nepal</p>
+        </div>
+        <div class="footer-section">
+          <h3>Newsletter</h3>
+          <input type="email" placeholder="Enter your email" class="newsletter-input" />
+          <button class="newsletter-btn">Subscribe</button>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 The Fresh Flower Shop. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script>
+      document.querySelector('.contact-form').addEventListener('submit', (e) => {
+        e.preventDefault();
+        alert('Thank you for your message! We will get back to you shortly.');
+        e.target.reset();
+      });
+    </script>
+  </body>
+</html>
